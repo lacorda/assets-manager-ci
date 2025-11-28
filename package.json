@@ -1,13 +1,34 @@
 {
   "name": "@lacorda/assets-manager-cli",
   "version": "0.0.1",
-  "private": true,
+  "description": "Scan image assets, report usage, and safely delete unused images",
   "type": "commonjs",
   "bin": {
     "assets-cli": "bin/assets-manager.js"
   },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ],
   "scripts": {
     "report": "node bin/assets-manager.js report",
     "delete": "node bin/assets-manager.js delete"
+  },
+  "keywords": [
+    "assets",
+    "images",
+    "report",
+    "cleanup",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacorda/assets-manager-ci.git"
+  },
+  "author": "lacorda",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
   }
 }

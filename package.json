@@ -1,0 +1,13 @@
+{
+  "name": "@lacorda/assets-manager-cli",
+  "version": "0.0.1",
+  "private": true,
+  "type": "commonjs",
+  "bin": {
+    "assets-cli": "bin/assets-manager.js"
+  },
+  "scripts": {
+    "report": "node bin/assets-manager.js report",
+    "delete": "node bin/assets-manager.js delete"
+  }
+}
